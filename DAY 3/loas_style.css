@@ -1,0 +1,31 @@
+#container{
+    background-color:rgb(36, 36, 200) ;
+    height: 300px;
+    width: 500px;
+    position: relative;
+}
+
+.box{
+    box-sizing: border-box;
+    background-color: rgb(209, 45, 45);
+}
+
+.first , .second{
+    height: 80px;
+    width: 500px;
+}
+
+.second{
+    position: absolute;
+    bottom: 0%;
+}
+
+.circle{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: white;
+    top: 87px;
+    left: 190px;
+}
