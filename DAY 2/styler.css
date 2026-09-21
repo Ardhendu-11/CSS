@@ -1,3 +1,32 @@
-span{
+/* span{
     color: blue;
+} */
+
+/* *{
+    margin: 0%;
+    padding: 0%;
+} */
+
+h1{
+    background-color: aqua;
+    height: 200px;
+    width: 300px;
+    /* padding: 40px;
+    margin: 20px; */
+    
+    display: inline;
+}
+
+h2{
+    background-color: tomato;
+}
+
+span{
+    background-color: pink;
+    height: 200px;
+    width: 300px;
+    /* span always allows horigontal changes no vertal changes will apply in span */
+    /* padding: 20px;
+    margin: 20px; */
+    /* padding-bottom: 30px; */
 }
