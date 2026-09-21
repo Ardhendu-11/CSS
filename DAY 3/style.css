@@ -1,0 +1,16 @@
+h2{
+    background-color: blue !important;
+}
+h1{
+    background-color: orange;
+}
+/* .classA{
+    background-color: aqua;
+}
+#firstid{
+    background-color: red;
+} */
+
+h1{
+    background-color: red; /*when tag are getting tie then tge ordering will be preffered */
+}
