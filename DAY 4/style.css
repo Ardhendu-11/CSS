@@ -1,0 +1,45 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: baseline; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly;  justify contetnt works around main axis and main axis is decided by flex direction(row/column) */
+
+    align-items: center;  /*works around croos axis*/
+    /* flex-wrap: wrap; */
+    gap: 5px;
+}
+
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    /* margin: 5px; */
+}
+
+.first{
+    background-color: orange;
+    /* flex-basis: 200px; increases according to the main axis */
+    /* flex-grow: 1; */
+}
+
+.second{
+    background-color: green;
+    /* flex-grow: 2; */
+}
+
+.third{
+    background-color: red;
+    /* flex-shrink: 4; */
+    align-self: flex-start;
+}
+
+.fourth{
+    background-color: chartreuse;
+}
