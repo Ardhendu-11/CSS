@@ -1,0 +1,12 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(154, 154, 16);
+    /* box-shadow: 0 20px 50px rgba(6, 114, 191, 0.7);; */
+    box-shadow: 0 20px 50px rgba(240, 46, 170, 0.7);
+    
+}
+
+body{
+    background-color: black;
+}
